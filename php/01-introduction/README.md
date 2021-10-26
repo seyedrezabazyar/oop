@@ -4,7 +4,8 @@
 An example of class:
 ```php
 <?php
-class Person {
+class Person 
+{
     public $name;
     public $age;
 }
@@ -26,7 +27,9 @@ Using the defined class we can create objects and set properties.
 
 ```php
 <?php
-class Person {
+<?php
+class Person 
+{
     public $name;
     public $age;
     
@@ -52,8 +55,8 @@ Output:
 
 Explanation:
 
-- At `lines 2 - 11` a class is defined. Its members are `name` and `age`. person declares a structure to hold the details of a person which consists of 2 data fields, namely `name` and `age` at `lines 3 and 4`. 
+- At `lines 2 - 11` a class is defined. Its members are `name` and `age`. person declares a structure to hold the details of a person which consists of 2 data fields, namely `name` and `age` at `lines 4 and 5`. 
 - The class also has a function `introduceYourself` that uses the members via the `this` keyword.
-- At `line 13` an object is created.
-- At `lines 16 and 17` values are set to the members.
-- At `lines 19` the function `introduceYourself` is called and a message is printed.
+- At `line 14` an object is created.
+- At `lines 17 and 18` values are set to the members.
+- At `lines 20` the function `introduceYourself` is called and a message is printed.
