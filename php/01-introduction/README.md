@@ -48,7 +48,7 @@ $personObject->introduceYourself();
 
 Output:
 
-`I'm Seyed Reza Bazyar and I'm 25 Years old.`
+`I'm Seyed Reza Bazyar and I'm 25 years old.`
 
 Explanation:
 
